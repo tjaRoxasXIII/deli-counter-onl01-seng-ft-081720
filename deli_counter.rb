@@ -16,4 +16,5 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli == []
     katz_deli.push(name)
+  end
 end 
