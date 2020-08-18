@@ -14,8 +14,9 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli, name)
+  i = 1
   if katz_deli == []
     katz_deli.push(name)
-    puts "Welcome "
+    puts "Welcome #{name}. You are number #{i} line."
   end
 end 
