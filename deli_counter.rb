@@ -25,5 +25,8 @@ def take_a_number(katz_deli, name)
 end 
 
 def now_serving(katz_deli)
-  
+  if katz_deli == []
+    puts "There is nobdy waiting to be served!"
+  elsif katz_deli.length > 0
+    puts "Now Serving:"
 end 
